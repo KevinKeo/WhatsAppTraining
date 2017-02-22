@@ -1,0 +1,22 @@
+<ion-view view-title="Conversations">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-icon-left" href="#/tab/conversations/add">
+        <i class="icon ion-plus"></i>Add
+      </ion-item>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="conv in conversations | orderBy: 'lastDate':true" type="item-text-wrap" href="#/tab/conversations/{{conv.$id}}">
+        <img ng-src="{{conv.face}}">
+        <h2>{{conv.convName}} </h2>
+        <p>{{conv.lastMessage}} <span am-time-ago="conv.lastDate"></span></p>
+        <p><span>{{conv.description}}</span></p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(conv)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
+
+</ion-view>

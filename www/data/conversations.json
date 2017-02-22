@@ -1,0 +1,31 @@
+[
+  {
+    "conversation": {
+      "id": "58ac7b88badb9de86a59e372",
+      "convName": "Heather",
+      "description": "description",
+      "lastMessage": "hello Tamera",
+      "messages": [{
+        "userId": "58ab754f5eb4310e8b6930f1",
+        "message": "hello Pruitt",
+        "date": "Fri Feb 17 2017 07:04:51 GMT+0100 (Central Europe Standard Time)"
+      }],
+      "lastDate":"Fri Feb 17 2017 07:04:51 GMT+0100 (Central Europe Standard Time)",
+      "face": "img/ionic.png"
+    }
+  },{
+    "conversation": {
+      "id": "58ac7b8876f96ddaa8779481",
+      "convName": "Madelyn",
+      "description": "description",
+      "lastMessage": "hello Cobb",
+      "messages": [{
+        "userId": "58ab754f5eb4310e8b6930f1",
+        "message": "hello Mamie",
+        "date": "Tue Jan 17 2017 23:56:13 GMT+0100 (Central Europe Standard Time)"
+      }],
+      "lastDate":"Tue Jan 17 2017 23:56:13 GMT+0100 (Central Europe Standard Time)",
+      "face": "img/ionic.png"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+
+<ion-view view-title="Inscription">
+  <ion-content class="padding">
+  <form ng-submit="inscription()" >
+    <md-input-container flex>
+      <label>Prénom :</label>
+      <input type="text" ng-model="formData.prenom" required minlength="1" >
+      <label>Nom :</label>
+      <input type="text" ng-model="formData.nom" required minlength="1" >
+      <label>Email :</label>
+      <input type="text" ng-model="formData.email" required minlength="1" >
+      <label>Mot de passe :</label>
+      <input type="password" ng-model="formData.password" required minlength="1" ></inpput>
+      <input type="submit" value="s'inscrire">
+      <p>{{formData.errmsg}}</p>
+    </md-input-container>
+    </form>
+  </ion-content>
+</ion-view>

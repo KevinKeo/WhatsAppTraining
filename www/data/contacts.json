@@ -1,0 +1,82 @@
+[
+  {
+    "users": {
+      "id": "58ab754f5eb4310e8b6930f1",
+      "email": "hutchinsonreynolds@nutralab.com",
+      "firstName": "April",
+      "lastName": "Cochran",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  },
+  {
+    "users": {
+      "id": "58ab754ff841f491a64b74cd",
+      "email": "aprilcochran@nutralab.com",
+      "firstName": "Carmen",
+      "lastName": "Hinton",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  },
+  {
+    "users": {
+      "id": "58ab754f506348d30313b477",
+      "email": "carmenhinton@nutralab.com",
+      "firstName": "Robin",
+      "lastName": "Graves",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  },
+  {
+    "users": {
+      "id": "58ab754f1c4e5bf59e0152de",
+      "email": "robingraves@nutralab.com",
+      "firstName": "Sherry",
+      "lastName": "Miranda",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  },
+  {
+    "users": {
+      "id": "58ab754f0e94edc0dca5840f",
+      "email": "sherrymiranda@nutralab.com",
+      "firstName": "Odonnell",
+      "lastName": "Mathews",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  },
+  {
+    "users": {
+      "id": "58ab754f47cbfb7d8eefca79",
+      "email": "odonnellmathews@nutralab.com",
+      "firstName": "Fletcher",
+      "lastName": "Jennings",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  },
+  {
+    "users": {
+      "id": "58ab754f5f55f1eafc2b07c4",
+      "email": "fletcherjennings@nutralab.com",
+      "firstName": "Regina",
+      "lastName": "Meadows",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  },
+  {
+    "users": {
+      "id": "58ab754f56eddd31320c9076",
+      "email": "reginameadows@nutralab.com",
+      "firstName": "Salinas",
+      "lastName": "Bishop",
+      "password":"azerty",
+      "face": "img/max.png"
+    }
+  }
+]

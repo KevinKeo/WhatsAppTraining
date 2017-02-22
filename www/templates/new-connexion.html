@@ -1,0 +1,16 @@
+
+<ion-view view-title="Connexion">
+  <ion-content class="padding">
+  <form ng-submit="connexion()" >
+    <md-input-container flex>
+      <label>Email :</label>
+      <input type="text" ng-model="formData.email" required minlength="1" >
+      <label>Mot de passe :</label>
+      <input type="password" ng-model="formData.password"></inpput>
+      <input type="submit" value="se connecter">
+      <p>{{formData.errmsg}}<p>
+    </md-input-container>
+    </form>
+  </ion-content>
+</ion-view>
+

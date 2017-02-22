@@ -1,0 +1,22 @@
+<ion-view view-title="Contacts">
+  <ion-content>
+  <div class="list list-inset">
+  <label class="item item-input">
+    <i class="icon ion-search placeholder-icon"></i>
+    <input type="text" placeholder="Search" ng-model="filtername">
+  </label>
+</div>
+     <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="contact in contacts | filter:{firstName:filtername} | orderBy:'firstName'" type="item-text-wrap">
+        <img ng-src="{{contact.face}}">
+        <h2>{{contact.firstName}} {{contact.lastName}}</h2>
+        <p>{{contact.email}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+
+        <ion-option-button class="button-assertive" ng-click="remove(contact)">
+          Delete
+        </ion-option-button>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,19 @@
+<!--
+  This template loads for the 'tab.friend-detail' state (app.js)
+  'friend' is a $scope variable created in the FriendsCtrl controller (controllers.js)
+  The FriendsCtrl pulls data from the Friends service (service.js)
+  The Friends service returns an array of friend data
+-->
+<ion-view view-title="test">
+  <ion-content class="padding">
+  <form  ng-submit="addConv()" >
+    <md-input-container flex>
+      <label>Nom de la conversation :</label>
+      <input type="text" ng-model="formData.nameConv" required minlength="1" >
+      <label>Description de la conversation :</label>
+      <textarea type="text" ng-model="formData.description"></textarea>
+      <input type="submit" value="submit">
+    </md-input-container>
+    </form>
+  </ion-content>
+</ion-view>
