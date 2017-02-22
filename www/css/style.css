@@ -1,1 +1,6 @@
-/* Empty. Add your own CSS if you like */
+
+input, textarea, .item-input, .item-input-wrapper {
+  background-color: #f4f4f4 !important;
+  width: 100%;
+  resize: none
+}
